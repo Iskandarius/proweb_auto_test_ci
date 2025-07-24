@@ -19,10 +19,10 @@ def driver_edge():
     yield driver
 
 
-@pytest.fixture
-def driver_firefox():
-    driver = webdriver.Firefox()
-    driver.maximize_window()
-    driver.implicitly_wait(10)
+# @pytest.fixture
+# def driver_firefox():
+#     driver = webdriver.Firefox()
+#     driver.maximize_window()
+#     driver.implicitly_wait(10)
 
-    yield driver
+#     yield driver

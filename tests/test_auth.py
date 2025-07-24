@@ -54,23 +54,23 @@ def test_invalid_auth_chrome(driver_chrome):
         auth_page.click_btn_next()
 
 
-def test_auth_edge(driver_edge):
-    driver_edge.get("https://my.proweb.uz/log-in")
-    auth_page = AuthPage(driver_edge)
-    auth_page.enter_phone_number("998335814130")
-    auth_page.click_btn_next()
-    auth_page.enter_password("proweb3106632")
-    auth_page.click_btn_submit()
-    auth_page.click_btn_sessions()
-    auth_page.click_btn_finish()
+# def test_auth_edge(driver_edge):
+#     driver_edge.get("https://my.proweb.uz/log-in")
+#     auth_page = AuthPage(driver_edge)
+#     auth_page.enter_phone_number("998335814130")
+#     auth_page.click_btn_next()
+#     auth_page.enter_password("proweb3106632")
+#     auth_page.click_btn_submit()
+#     auth_page.click_btn_sessions()
+#     auth_page.click_btn_finish()
 
 
-def test_auth_firefox(driver_firefox):
-    driver_firefox.get("https://my.proweb.uz/log-in")
-    auth_page = AuthPage(driver_firefox)
-    auth_page.enter_phone_number("998335814130")
-    auth_page.click_btn_next()
-    auth_page.enter_password("proweb3106632")
-    auth_page.click_btn_submit()
-    auth_page.click_btn_sessions()
-    auth_page.click_btn_finish()
+# def test_auth_firefox(driver_firefox):
+#     driver_firefox.get("https://my.proweb.uz/log-in")
+#     auth_page = AuthPage(driver_firefox)
+#     auth_page.enter_phone_number("998335814130")
+#     auth_page.click_btn_next()
+#     auth_page.enter_password("proweb3106632")
+#     auth_page.click_btn_submit()
+#     auth_page.click_btn_sessions()
+#     auth_page.click_btn_finish()

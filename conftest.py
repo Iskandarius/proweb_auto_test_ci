@@ -10,13 +10,13 @@ def driver_chrome():
     yield driver
 
 
-@pytest.fixture
-def driver_edge():
-    driver = webdriver.Edge()
-    driver.maximize_window()
-    driver.implicitly_wait(10)
+# @pytest.fixture
+# def driver_edge():
+#     driver = webdriver.Edge()
+#     driver.maximize_window()
+#     driver.implicitly_wait(10)
 
-    yield driver
+#     yield driver
 
 
 # @pytest.fixture

@@ -13,11 +13,11 @@ def test_auth_chrome(driver_chrome):
     auth_page.click_btn_next()
     auth_page.enter_password("proweb3106632")
     auth_page.click_btn_submit()
-    try:
-        auth_page.click_btn_sessions()
-        auth_page.click_btn_finish()
-    except:
-        pass
+    # try:
+    #     auth_page.click_btn_sessions()
+    #     auth_page.click_btn_finish()
+    # except:
+    #     pass
     time.sleep(3)
     auth_page.click_coworking()
 

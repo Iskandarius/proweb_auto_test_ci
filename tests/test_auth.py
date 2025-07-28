@@ -18,8 +18,10 @@ def test_auth_chrome(driver_chrome):
         auth_page.click_btn_finish()
     except:
         pass
-    time.sleep(3)
-    auth_page.click_coworking()
+   
+    
+    # time.sleep(3)
+    # auth_page.click_coworking()
 
     home_page = HomePage(driver_chrome)
     home_page.click_profile_icon()
